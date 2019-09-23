@@ -1,0 +1,57 @@
+.bl-cat {
+  padding: 5px 40px;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  transition: .5s;
+  overflow: hidden;
+}
+.bl-cat:hover {
+  border: 1px solid #35c79b;
+  transition: .5s;
+}
+.bl-cat:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.descr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.descr span {
+  font-size: 20px;
+  color: #868686;
+}
+
+.bl-cat img {
+  width: 35%;
+  height: auto;
+  transition: .5s;
+}
+
+.selected {
+  background-color: #bae8ba;
+}
+
+@media(max-width: 580px) {
+  .bl-cat {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bl-cat img {
+    width: 35%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}

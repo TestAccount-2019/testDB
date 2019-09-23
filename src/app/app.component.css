@@ -1,0 +1,28 @@
+main {
+  max-width: 700px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.submit {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 16px;
+  font-size: 18px;
+
+  color: #fff;
+  background-color: #17a2b8;
+  border: 1px solid #17a2b8;
+  border-radius: 4px;
+  transition: .5s
+}
+.submit:hover {
+  background-color: #006c7d;
+  transition: .5s
+}

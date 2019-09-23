@@ -1,0 +1,10 @@
+<div
+  class="bl-cat"
+  (click)="selectItem(cat.id)"
+  [ngClass]="{selected: marked}">
+      <img src="{{cat.url}}" alt="image cat">
+      <p class="descr">
+        <span>id: {{cat.id}}</span>
+        <span>name: {{cat.name}}</span>
+      </p>
+</div>
